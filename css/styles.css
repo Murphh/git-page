@@ -3,6 +3,10 @@ body {
   width: 100vw;
 }
 
+.jumbotron {
+  background-color: #1aa3ff;
+}
+
 .social-logo {
   max-width: 40px;
   max-height: 40px;
@@ -11,8 +15,9 @@ body {
 .bottom-nav {
   display: flex;
   justify-content: space-between;
-  background-color: #007bff;
+  background-color: #1aa3ff;
   width: 100vw;
+  border-top: solid 2px black;
 }
 
 .bottom-nav p {
@@ -119,4 +124,13 @@ body {
 
 .project-section {
   width: 60%;
+}
+
+.list {
+  padding: 10px;
+}
+
+.list li {
+  padding: 0 0 5px 0;
+  text-transform: capitalize;
 }
