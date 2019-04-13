@@ -93,3 +93,20 @@ body {
   width: 30%;
   height: 100%;
 }
+
+.row h2 {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.work-experience-column {
+  width: 45%;
+}
+
+.university-section {
+  width: 65%;
+}
+
+.secondary-section {
+  width: 30%;
+}
