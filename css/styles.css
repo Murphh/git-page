@@ -35,6 +35,16 @@ body {
   max-height: 800px;
   margin: 40px 10% 0;
   justify-content: space-between;
+  padding-bottom: 5px;
+  min-height: 340px;
+}
+
+.bottom-border {
+  border-bottom: 3px solid grey;
+}
+
+.row + .bottom-row {
+  border-bottom: 0;
 }
 
 .training-row {
@@ -61,8 +71,8 @@ body {
 
 .row img {
   width: 30%;
-  border-radius: 5px;
-  max-height: 400px;
+  border-radius: 10px;
+  max-height: 300px;
   min-width: 250px;
 }
 
@@ -79,10 +89,6 @@ body {
 .areas-to-improve-container {
   width: 30%;
   padding: 10px;
-}
-
-.testing-role img {
-  max-height: 300px;
 }
 
 .bottom-row {
@@ -109,4 +115,8 @@ body {
 
 .secondary-section {
   width: 30%;
+}
+
+.project-section {
+  width: 60%;
 }
