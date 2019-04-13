@@ -1,5 +1,6 @@
 body {
   box-sizing: border-box;
+  width: 100vw;
 }
 
 .social-logo {
@@ -11,6 +12,7 @@ body {
   display: flex;
   justify-content: space-between;
   background-color: #007bff;
+  width: 100vw;
 }
 
 .bottom-nav p {
@@ -25,4 +27,43 @@ body {
 
 .logo-bar a {
   padding: 0 5px;
+}
+
+.index-row {
+  display: flex;
+  width: 80%;
+  max-height: 800px;
+  margin: 40px 10% 0;
+  justify-content: space-between;
+}
+
+.index-text-container {
+  width: 65%;
+  padding: 10px;
+}
+
+.index-row img {
+  width: 30%;
+  border-radius: 5px;
+  max-height: 400px;
+  min-width: 250px;
+}
+
+.index-skills-container {
+  width: 45%;
+  padding: 10px;
+}
+
+.passions-container {
+  width: 65%;
+  padding: 10px;
+}
+
+.areas-to-improve-container {
+  width: 30%;
+  padding: 10px;
+}
+
+.bottom-row {
+  margin-bottom: 100px;
 }
