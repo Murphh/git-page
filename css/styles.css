@@ -43,13 +43,13 @@ body {
   border-bottom: 3px solid grey;
 }
 
-.row + .bottom-row {
-  border-bottom: 0;
-}
-
 .training-row {
   flex-direction: column;
   max-height: 1300px;
+}
+
+.training-row h3{
+  margin-bottom: 20px;
 }
 
 .training-week {
