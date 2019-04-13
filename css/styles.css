@@ -29,7 +29,7 @@ body {
   padding: 0 5px;
 }
 
-.index-row {
+.row {
   display: flex;
   width: 80%;
   max-height: 800px;
@@ -37,12 +37,29 @@ body {
   justify-content: space-between;
 }
 
+.training-row {
+  flex-direction: column;
+  max-height: 1300px;
+}
+
+.training-week {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  border: solid 2px grey;
+  /* border-bottom: 0; */
+}
+
+.training-week h4, .training-week p {
+  margin: 0;
+}
+
 .index-text-container {
   width: 65%;
   padding: 10px;
 }
 
-.index-row img {
+.row img {
   width: 30%;
   border-radius: 5px;
   max-height: 400px;
@@ -64,6 +81,15 @@ body {
   padding: 10px;
 }
 
+.testing-role img {
+  max-height: 300px;
+}
+
 .bottom-row {
   margin-bottom: 100px;
+}
+
+.journey-column {
+  width: 30%;
+  height: 100%;
 }
