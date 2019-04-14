@@ -257,7 +257,8 @@ body {
   .bottom-nav p {
     display: inline-block;
     width: 80%;
-    margin: 5px 10%;
+    margin: 5px auto;
+    text-align: center;
   }
 
   .training-week h4 {
