@@ -44,6 +44,14 @@ body {
   min-height: 340px;
 }
 
+.modules-section {
+  display: flex;
+  width: 80%;
+  margin: 10px 10% 0;
+  justify-content: space-between;
+  padding-bottom: 5px;
+}
+
 .bottom-border {
   border-bottom: 3px solid grey;
 }
@@ -118,6 +126,24 @@ body {
   width: 65%;
 }
 
+.modules-section {
+  display: flex;
+  width: 100%;
+  margin: 10px 0 0;
+  justify-content: space-between;
+  padding-bottom: 5px;
+}
+
+.modules-section ul {
+  display: inline-block;
+  width: 50%;
+  padding: 0 20px 0;
+}
+
+.modules-section li {
+  padding-bottom: 5px;
+}
+
 .secondary-section {
   width: 30%;
 }
@@ -133,4 +159,8 @@ body {
 .list li {
   padding: 0 0 5px 0;
   text-transform: capitalize;
+}
+
+.grade {
+  float: right;
 }
