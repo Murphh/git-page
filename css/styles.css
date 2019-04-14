@@ -169,14 +169,62 @@ body {
   float: right;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 900px) {
+  .row {
+    width: 90%;
+    margin: 30px 5% 10px;
+    max-height: 100%;
+    min-width: 500px;
+  }
+
+  .index-text-container, .row img {
+    margin: 10px auto;
+  }
+
+  .bottom-row {
+    margin-bottom: 100px;
+  }
+}
+
+@media (max-width: 680px) {
+  body {
+    padding-bottom: 100px;
+  }
+
   .row {
     width: 95%;
-    margin: 30px 2.5% 0;
+    margin: 30px 2.5% 10px;
     max-height: 100%;
     min-width: 400px;
   }
 
+  .project-section {
+    width: 55%;
+  }
+
+  .row img {
+    width: 30%;
+  }
+
+  .modules-section {
+    width: 95%;
+    flex-wrap: wrap;
+    margin: 5px 2.5%;
+    min-width: 350px;
+  }
+
+  .modules-section ul{
+    display: block;
+    width: 100%;
+  }
+
+  .university-section, .secondary-section {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 600px) {
   .row h2 {
     margin-left: 10%;
   }
@@ -192,18 +240,6 @@ body {
   .index-text-container, .index-skills-container, .passions-container, .areas-to-improve-container, .journey-column, .work-experience-column, .university-section, .secondary-section, .project-section {
     width: 80%;
     margin: 5px 10%;
-  }
-
-  .modules-section {
-    width: 95%;
-    flex-wrap: wrap;
-    margin: 5px 2.5%;
-    min-width: 350px;
-  }
-
-  .modules-section ul{
-    display: block;
-    width: 100%;
   }
 
   .logo-bar {
@@ -225,7 +261,7 @@ body {
   }
 
   .training-week h4 {
-    text-align: center;
+    margin: 0 auto;
   }
 
   .training-week p {
