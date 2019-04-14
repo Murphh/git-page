@@ -168,3 +168,67 @@ body {
 .grade {
   float: right;
 }
+
+@media (max-width: 500px) {
+  .row {
+    width: 95%;
+    margin: 30px 2.5% 0;
+    max-height: 100%;
+    min-width: 400px;
+  }
+
+  .row h2 {
+    margin-left: 10%;
+  }
+
+  .bottom-row {
+    margin-bottom: 100px;
+  }
+
+  .row img {
+    margin: 0 auto 10px;
+  }
+
+  .index-text-container, .index-skills-container, .passions-container, .areas-to-improve-container, .journey-column, .work-experience-column, .university-section, .secondary-section, .project-section {
+    width: 80%;
+    margin: 5px 10%;
+  }
+
+  .modules-section {
+    width: 95%;
+    flex-wrap: wrap;
+    margin: 5px 2.5%;
+    min-width: 350px;
+  }
+
+  .modules-section ul{
+    display: block;
+    width: 100%;
+  }
+
+  .logo-bar {
+    width: 60%;
+    max-height: 30px;
+    margin: 5px 20% 5px;
+    min-width: 200px;
+  }
+
+  .bottom-nav {
+    max-height: 100px;
+    flex-wrap: wrap;
+  }
+
+  .bottom-nav p {
+    display: inline-block;
+    width: 80%;
+    margin: 5px 10%;
+  }
+
+  .training-week h4 {
+    text-align: center;
+  }
+
+  .training-week p {
+    display: none;
+  }
+}
