@@ -7,6 +7,10 @@ body {
   background-color: #1aa3ff;
 }
 
+.jumbotron h1, .active {
+  font-weight: bold;
+}
+
 .social-logo {
   max-width: 40px;
   max-height: 40px;
